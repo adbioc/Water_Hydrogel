@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Hydrogel Notes - Background</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Background</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Hydrogel Notes</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Hydrogel Monitoring by IoT</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link active">Background</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#model-based-insights-in-hydrogel-action" id="toc-model-based-insights-in-hydrogel-action" class="nav-link active" data-scroll-target="#model-based-insights-in-hydrogel-action">Model based insights in hydrogel action</a>
+  <ul class="collapse">
+  <li><a href="#a-simple-phenomenology" id="toc-a-simple-phenomenology" class="nav-link" data-scroll-target="#a-simple-phenomenology">A simple phenomenology</a></li>
+  <li><a href="#power-law-model" id="toc-power-law-model" class="nav-link" data-scroll-target="#power-law-model">Power law Model</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Background</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<div id="intro">
+
+</div>
+<p>One important factor of plant growth in water limited agrozones is resolved by adding hydrogels <span class="citation" data-cites="montesano2015biodegradable">Montesano et al. (<a href="references.html#ref-montesano2015biodegradable" role="doc-biblioref">2015</a>)</span>,<span class="citation" data-cites="el2017hydrogel">El-Asmar et al. (<a href="references.html#ref-el2017hydrogel" role="doc-biblioref">2017</a>)</span>. There have also been keen interest in soil water retention in presence of hydrogel <span class="citation" data-cites="narjary2012water">Narjary et al. (<a href="references.html#ref-narjary2012water" role="doc-biblioref">2012</a>)</span>,<span class="citation" data-cites="abedi2008evaluation">Abedi-Koupai, Sohrab, and Swarbrick (<a href="references.html#ref-abedi2008evaluation" role="doc-biblioref">2008</a>)</span>. Its prepartion detail is provided in some recent reviews e.g., <span class="citation" data-cites="ahmed2015hydrogel">Ahmed (<a href="references.html#ref-ahmed2015hydrogel" role="doc-biblioref">2015</a>)</span>. Some research related to hydrogel particle size on its water retention activity has also been cited <span class="citation" data-cites="abdallah2019effect">Abdallah (<a href="references.html#ref-abdallah2019effect" role="doc-biblioref">2019</a>)</span>.</p>
+<section id="model-based-insights-in-hydrogel-action" class="level2">
+<h2 class="anchored" data-anchor-id="model-based-insights-in-hydrogel-action">Model based insights in hydrogel action</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="swell.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Water Retention by swelling</figcaption><p></p>
+</figure>
+</div>
+<section id="a-simple-phenomenology" class="level3">
+<h3 class="anchored" data-anchor-id="a-simple-phenomenology">A simple phenomenology</h3>
+<p>The phenomenal model is based on experimental observation for describing the extensive polymer swelling : <span class="math display">\[\begin{equation}
+\frac{t}{W}=A+Bt
+\label{eq:pheno}
+\end{equation}\]</span> In equation (0.1) W is the water uptake at time t, B=<span class="math inline">\(\frac{1}{W_\infty}\)</span>.</p>
+<p>Actually the equation (0.1) is solution to the second order kinetic model : <span class="math display">\[\begin{equation}
+\frac{dW}{dt} = k_r (W_\infty − W)^2
+\label{eq:2ndorder}
+\end{equation}\]</span></p>
+<p>The retentivity is expressed by the constant <span class="math inline">\(k_r\)</span> as given by <span class="math inline">\(k_r=\frac{1}{AW_\infty^2}\)</span> While we can perform a time series, the estimation of <span class="math inline">\(k_r\)</span> can provide us a simple estimate of water retentivity.</p>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">Pkg</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">Pkg</span>.<span class="fu">add</span>(<span class="st">"DifferentialEquations"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">DifferentialEquations</span>,<span class="bu">DiffEqProblemLibrary.ODEProblemLibrary</span>,<span class="bu">Plots</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">f</span>(u,p,t) <span class="op">=</span> <span class="fl">0.5</span><span class="fu">*</span>(u<span class="op">-</span><span class="fl">1.5</span>)<span class="op">^</span><span class="fl">2</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>u0 <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">2</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>tspan <span class="op">=</span> (<span class="fl">0.0</span>,<span class="fl">10.0</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>prob <span class="op">=</span> <span class="fu">ODEProblem</span>(f,u0,tspan)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> <span class="fu">solve</span>(prob)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sol,linewidth<span class="op">=</span><span class="fl">5</span>,title<span class="op">=</span><span class="st">"Water Uptake Kinetics r=0.5"</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>     xaxis<span class="op">=</span><span class="st">"Time (t)"</span>,yaxis<span class="op">=</span><span class="st">"Water Mass"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+<p><img src="intro_files/figure-html/cell-3-output-1.svg" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">f</span>(u,p,t) <span class="op">=</span> <span class="fl">0.9</span><span class="fu">*</span>(u<span class="op">-</span><span class="fl">1.5</span>)<span class="op">^</span><span class="fl">2</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>u0 <span class="op">=</span> <span class="fl">1</span><span class="op">/</span><span class="fl">2</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>tspan <span class="op">=</span> (<span class="fl">0.0</span>,<span class="fl">10.0</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>prob <span class="op">=</span> <span class="fu">ODEProblem</span>(f,u0,tspan)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>sol <span class="op">=</span> <span class="fu">solve</span>(prob)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(sol,linewidth<span class="op">=</span><span class="fl">5</span>,title<span class="op">=</span><span class="st">"Water Uptake Kinetics r=0.9"</span>,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>     xaxis<span class="op">=</span><span class="st">"Time (t)"</span>,yaxis<span class="op">=</span><span class="st">"Water Mass"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="4">
+<p><img src="intro_files/figure-html/cell-4-output-1.svg" class="img-fluid"></p>
+</div>
+</div>
+<p>See <a href="https://diffeq.sciml.ai/stable/tutorials/ode_example/" class="uri">https://diffeq.sciml.ai/stable/tutorials/ode_example/</a> and <a href="https://diffeq.sciml.ai/stable/tutorials/ode_example/" class="uri">https://diffeq.sciml.ai/stable/tutorials/ode_example/</a> for Julia based ODE.</p>
+</section>
+<section id="power-law-model" class="level3">
+<h3 class="anchored" data-anchor-id="power-law-model">Power law Model</h3>
+<p>The power law model is a consequence of diffusion of water into the hydrogel. We can express the power law by: <span class="math display">\[\begin{equation}
+M_t/M_\infty = kt^n
+\label{eq:powerlaw}
+\end{equation}\]</span></p>
+<p>where <span class="math inline">\(M_t\)</span> is the mass of water gained or lost at time t, <span class="math inline">\(N_\infty\)</span> is the initial mass of water contained in the hydrogel, k is a constant and n is the diffusion exponent.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Usually the mechanism of the water transport in the hydrogels may be characterized by the diffusion exponent n in the power law model.The two cases n = 0.5 and n = 1 are important. When n = 0.5, the water transport is controlled exclusively by the chemical potential gradient, little or no volume variation occurs during the transport</p>
+</div>
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-abdallah2019effect" class="csl-entry" role="doc-biblioentry">
+Abdallah, Ahmad M. 2019. <span>“The Effect of Hydrogel Particle Size on Water Retention Properties and Availability Under Water Stress.”</span> <em>International Soil and Water Conservation Research</em> 7 (3): 275–85.
+</div>
+<div id="ref-abedi2008evaluation" class="csl-entry" role="doc-biblioentry">
+Abedi-Koupai, Jahangir, Farahnaz Sohrab, and Gareth Swarbrick. 2008. <span>“Evaluation of Hydrogel Application on Soil Water Retention Characteristics.”</span> <em>Journal of Plant Nutrition</em> 31 (2): 317–31.
+</div>
+<div id="ref-ahmed2015hydrogel" class="csl-entry" role="doc-biblioentry">
+Ahmed, Enas M. 2015. <span>“Hydrogel: Preparation, Characterization, and Applications: A Review.”</span> <em>Journal of Advanced Research</em> 6 (2): 105–21.
+</div>
+<div id="ref-el2017hydrogel" class="csl-entry" role="doc-biblioentry">
+El-Asmar, Jessica, Hadi Jaafar, Issam Bashour, Mohammad T Farran, and Imad P Saoud. 2017. <span>“Hydrogel Banding Improves Plant Growth, Survival, and Water Use Efficiency in Two Calcareous Soils.”</span> <em>CLEAN–Soil, Air, Water</em> 45 (7): 1700251.
+</div>
+<div id="ref-montesano2015biodegradable" class="csl-entry" role="doc-biblioentry">
+Montesano, Francesco F, Angelo Parente, Pietro Santamaria, Alessandro Sannino, and Francesco Serio. 2015. <span>“Biodegradable Superabsorbent Hydrogel Increaseswater Retention Properties of Growing Media and Plant Growth.”</span> <em>Agriculture and Agricultural Science Procedia</em> 4: 451–58.
+</div>
+<div id="ref-narjary2012water" class="csl-entry" role="doc-biblioentry">
+Narjary, Bhaskar, Pramila Aggarwal, Anupama Singh, Debashis Chakraborty, and Ravender Singh. 2012. <span>“Water Availability in Different Soils in Relation to Hydrogel Application.”</span> <em>Geoderma</em> 187: 94–101.
+</div>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Hydrogel Monitoring by IoT</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
